@@ -8,6 +8,11 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: 1px solid #7d97ad;
+    background-color: antiquewhite;
+}
+
+#drawer {
+    background-color: forestgreen;
 }
 
 .header_logo {
@@ -54,6 +59,14 @@ footer {
 
 .header_menu {
     display: none;
+}
+
+.header_menu svg {
+    fill: black;
+}
+
+.nav span {
+    color: white;
 }
 
 .nav_list .nav_item {
@@ -171,15 +184,15 @@ ul {
 
     .header_menu {
         display: inline-block;
+        cursor: pointer;
     }
 
     .header_menu svg {
         width: 32px;
-        fill: #E0E0E0;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .work_info {
